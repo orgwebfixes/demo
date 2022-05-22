@@ -1,0 +1,28 @@
+@extends('limitless.ajax')
+@section('title', $title)
+@section('content')
+<div class="row">
+    <div class="col-md-12" align="center">
+        <button type="button" class="close close_btn" data-dismiss="modal">&times;</button>
+        <table class="table table-user-information">
+            <h1>{{ $title }} {{trans("comman.details")}}</h1>
+            <tbody>
+                <tr>
+                  <th class="border_top col-sm-3">ID:</th>
+                  <td class="border_top">{{ $%%crudNameSingular%%->id }}</td>
+                </tr>
+                <tr>
+                  <th class="border_top col-sm-3">%%formHeadingHtml%%
+                  <td class="border_top">%%formBodyHtml%%
+                </tr>
+                <tr>
+                    <th class="border_top"></th>
+                    <td class="border_top"></td>
+                </tr>
+              </tbody>
+          </table>
+      <div class="text-center">
+      </div>
+    </div>
+</div>
+@stop

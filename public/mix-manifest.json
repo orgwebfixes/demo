@@ -1,0 +1,17 @@
+{
+    "/themes/limitless/css/all.css": "/themes/limitless/css/all.css",
+    "/themes/limitless/css/timepicker.min.css": "/themes/limitless/css/timepicker.min.css",
+    "/themes/limitless/css/bootstrap.min.css": "/themes/limitless/css/bootstrap.min.css",
+    "/themes/limitless/css/bootstrap-toggle.css": "/themes/limitless/css/bootstrap-toggle.css",
+    "/themes/limitless/css/buttons.dataTables.min.css": "/themes/limitless/css/buttons.dataTables.min.css",
+    "/themes/limitless/css/custom.css": "/themes/limitless/css/custom.css",
+    "/dist/fontawesome-5.3.1.css": "/dist/fontawesome-5.3.1.css",
+    "/dist/fonts-google-montserrat.css": "/dist/fonts-google-montserrat.css",
+    "/themes/limitless/js/async.js": "/themes/limitless/js/async.js",
+    "/themes/limitless/js/jquery-2.1.1.min.js": "/themes/limitless/js/jquery-2.1.1.min.js",
+    "/themes/limitless/js/timepicker.min.js": "/themes/limitless/js/timepicker.min.js",
+    "/themes/limitless/js/dataTables.buttons.min.js": "/themes/limitless/js/dataTables.buttons.min.js",
+    "/vendor/datatables/buttons.server-side.js": "/vendor/datatables/buttons.server-side.js",
+    "/themes/limitless/js/jqery.fieldsaddmore.min.js": "/themes/limitless/js/jqery.fieldsaddmore.min.js",
+    "/themes/limitless/js/bootstrap-toggle.js": "/themes/limitless/js/bootstrap-toggle.js"
+}

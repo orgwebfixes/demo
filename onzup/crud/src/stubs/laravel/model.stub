@@ -1,0 +1,43 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+use Sentinel;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class DummyClass extends MyModel
+{
+
+
+    use SoftDeletes;
+
+    /**
+     * [$dates softdelete]
+     * @var array
+     */
+    protected $dates = ['deleted_at'];
+    /**
+     * The database table used by the model.
+     *
+     * @var string
+     */
+    protected $table = '{{table}}';
+
+    /**
+     * Attributes that should be mass-assignable.
+     *
+     * @var array
+     */
+    protected $fillable = {{fillable}};
+    
+    protected $dependency = array(
+        //'State' => array('field' => 'country_id', 'model' => State::class),        
+    );
+
+    public function deleteValidate($id)
+    {
+        return false;
+    }
+}
